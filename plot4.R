@@ -25,8 +25,6 @@ plot4 <- function(){
         dates <- c(date1,date2)
         #Read data
         mydata<-load_mydata(file,dates)
-        
-        # Creates graphic device for plot
 
         # Creates graphic device for plot
         png("plot4.png",width = 480,height = 480)
